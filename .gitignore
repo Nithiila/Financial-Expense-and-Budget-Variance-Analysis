@@ -1,0 +1,39 @@
+# Python environments, caches, and build outputs
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+.ipynb_checkpoints/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Generated datasets, databases, and reports
+/data/raw/
+/data/processed/
+/data/database/
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+/reports/exports/
+/reports/figures/
+/reports/monthly/
+*.log

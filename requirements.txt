@@ -1,0 +1,13 @@
+# Data generation, preparation, and analysis
+numpy
+pandas
+
+# Dashboard and charts
+streamlit
+plotly
+
+# Excel exports
+openpyxl
+
+# Development and verification
+pytest
